@@ -6,7 +6,7 @@ namespace NewsApi.Service
     public class NewsApiService : IGetNews
     {
         private static readonly string api_Url = "https://newsapi.org/v2/everything?q=tesla&from=2023-03-14&sortBy=publishedAt&apiKey=";
-        private static readonly string api_Key = "56670fd5a9684ac4926eeb4b0d288374";
+        private static readonly string api_Key = "";
         private readonly RestClient client = new RestClient();
 
         public News GetNews()
