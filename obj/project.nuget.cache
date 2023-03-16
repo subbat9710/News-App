@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GN32GCvgHObhs1Vlx1ey8QeRHjJbl+XUrSPti+Q2Dv7hwa5Bv1Oene01gTr53ErUYVTxkwLX/hsar3P1zIMwDQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Student\\workspace\\side-projects\\NewsApi\\NewsApi\\NewsApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\restsharp\\106.15.0\\restsharp.106.15.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
+  "logs": []
+}
