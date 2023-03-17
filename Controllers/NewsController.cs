@@ -45,5 +45,29 @@ namespace NewsApi.Controllers
 
             return newNews;
         }
+        [HttpGet("author")]
+        public ActionResult<News> GetNewsByAuthor(string authorName)
+        {
+            News news = getNews.GetNewsByAuthor(authorName);
+
+            List<Article> articles = news.Articles;
+
+            if (!string.IsNullOrEmpty(authorName))
+            {
+                articles = articles.Where(a => a.Author.ToLower() == authorName.ToLower()).ToList();
+            }
+
+            News newNews = new News
+            {
+                Status = news.Status,
+                TotalResults = articles.Count,
+                Articles = articles
+            };
+
+            return newNews;
+        }
+
+
+
     }
 }
