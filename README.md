@@ -13,7 +13,7 @@ To get started with the project, follow these steps:
 The project has the following features:
 
 * Calls the News API to retrieve a list of news articles.
-* Maps the API response to a News class.
+* Maps the API response to a News class
 * Displays the news articles on the console.
 ## Dependencies
 The project uses the following dependencies:
